@@ -14,7 +14,7 @@ class EBazTest {
 
     @BeforeAll
     static void beforeAll() {
-        EBazTest.eBazClass = Utils.testIfClassExists("com.jad.EBaz");
+        EBazTest.eBazClass = Utils.testIfClassExists("com.jad.classe.EBaz");
     }
 
     @Test

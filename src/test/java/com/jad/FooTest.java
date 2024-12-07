@@ -19,11 +19,13 @@ class FooTest {
 
     @BeforeAll
     static void beforeAll() {
-        FooTest.fooClass = Utils.testIfClassExists("com.jad.Foo");
+        FooTest.fooClass = Utils.testIfClassExists("com.jad.classe.Foo");
     }
+
 
     @Test
     void doAllTests() {
+
         this.topLevelClassTest();
         this.countAttributesTest();
         this.countMethodsTest();

@@ -11,7 +11,7 @@ class QuxTest {
 
     @BeforeAll
     static void beforeAll() {
-        QuxTest.quxClass = Utils.testIfClassExists("com.jad.Qux");
+        QuxTest.quxClass = Utils.testIfClassExists("com.jad.classe.Qux");
     }
 
     @Test

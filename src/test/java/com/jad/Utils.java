@@ -8,8 +8,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-enum Utils {
-    ;
+enum Utils {;
 
     static void testIfPrivateAttributeExistsWithGoodType(final String attributeType,
                                                          final String attributeName,
